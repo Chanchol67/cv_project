@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e5d7d7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: #EED9AF;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.Profile_image{
+    width: 100px;
+    height: 120px;
+    border: 5px solid white;
+    border-radius: 50%;
+    float: left;
+
+
+}
+.header_bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+
+}
+.header_contact{
+    float: right;
+    padding: 30px;
+    font-weight: bold;
+
+}
+.header_contact a{
+    text-decoration: none;
+    color: green;
+
+}
+.header_contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+
+}
+.div_clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*_________________
+personal section start
+___________________*/
+#personal_section{
+
+}
+.content{
+    margin-bottom: 30px;
+
+}
+.left_div{
+    width:30%;
+    float: left;
+
+}
+.right_div{
+    width: 70%;
+    float: left;
+     
+}
+.common_hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/*_________________
+Education section start
+___________________*/
+
+.education_div_left{
+    float: left;
+    width: 45%;
+
+}
+.education_div_right{
+    float: left;
+    width: 45%;
+}
+
+
+/*_________________
+footer section start
+___________________*/
+.footer_buttom{
+    background-color: black;
+    text-align: center;
+    padding: 10dp;
+}
+
+.footer_buttom a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.footer_buttom a:hover{
+    color: green;
+}
+.footer_buttom p{
+    color: white;
+    margin-top: 20px;
+}
